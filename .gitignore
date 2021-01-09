@@ -3,6 +3,9 @@
 !/dev-wordpress/dockerfile
 !/dev-wordpress/docker-compose.yml
 
+/dev-laravel/*
+!/dev-laravel/dockerfile
+!/dev-laravel/docker-compose.yml
 # !docker-compose.yml
 # !dockerfile
 # *

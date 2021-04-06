@@ -1,0 +1,14 @@
+version: '3.7'
+services:
+  mongodb:
+    restart: "always"
+    image: mongo
+    ports:
+      - 27017:27017
+    volumes:
+      - ./data:/data/db
+    networks:
+      - proxy
+networks: 
+  proxy:
+    external: true
